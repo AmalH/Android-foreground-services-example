@@ -55,14 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-
-        (findViewById(R.id.stopBtn)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
     }
 
     private void showError(View v) {

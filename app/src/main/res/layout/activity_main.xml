@@ -1,44 +1,17 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:gravity="center">
 
 
-
-    <ImageButton
+   <Button
         android:id="@+id/startBtn"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="130dp"
-        android:background="@drawable/circle_button_sound_notif_shape"
-        android:src="@drawable/ic_play_arrow_white" />
-    <ImageButton
-        android:id="@+id/stopBtn"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp"
-        android:layout_toRightOf="@id/startBtn"
-        android:background="@drawable/circle_button_sound_notif_shape"
-        android:src="@drawable/ic_close_white" />
-
-
-    <!--<Button
-        android:id="@+id/"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/startServiceBtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
-        android:text="Start Foreground Service" />
-
-    <Button
-        android:id="@+id/stopBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/startBtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:text="Stop Foreground Service" />-->
-
-</RelativeLayout>
+        android:text="Start Foreground Service"
+       android:backgroundTint="@color/colorPrimary"
+       android:textAllCaps="false"
+       android:textColor="#fff"
+       android:textSize="8pt"
+       android:padding="20dp"/>
+</LinearLayout>
