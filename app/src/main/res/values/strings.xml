@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidForegroundServicesExample</string>
+    <string name="text_value_radio_notification" translatable="false">Radio</string>
+</resources>
